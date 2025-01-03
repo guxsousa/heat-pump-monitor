@@ -43,9 +43,14 @@ This project consumes the [HeatPumpMonitor.org](https://heatpumpmonitor.org) API
 
 ## Installation with Docker
 
+Genrate requirements.txt
+```sh
+poetry export --without-hashes --format=requirements.txt > requirements.txt
+```
+
 Build Dockerfile
 ```sh
-docker build -t cal .
+docker build -t hpapi .
 ```
 
 Find image-id
