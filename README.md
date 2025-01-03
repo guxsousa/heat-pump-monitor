@@ -5,7 +5,7 @@
 
 <img src="assets/logo.png" align="right" height="138" />
 
-This project consumes the [HeatPumpMonitor.org](HeatPumpMonitor.org) API for the purpose of data analysis and visualization. The API provides real-world heat pump performance data from heat pumps installed in different locations around the UK. The data is collected by volunteers and is made available to the public for research purposes.
+This project consumes the [HeatPumpMonitor.org](https://heatpumpmonitor.org) API for the purpose of data analysis and visualization. The API provides real-world heat pump performance data from heat pumps installed in different locations around the UK. The data is collected by volunteers and is made available to the public for research purposes.
 
 
 ## Installation
