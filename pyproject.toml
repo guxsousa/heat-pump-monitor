@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-project-template"
+version = "0.0.9"
+description = "A python project template."
+authors = ["G Sousa <guxsousa@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
