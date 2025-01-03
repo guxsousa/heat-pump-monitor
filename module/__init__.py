@@ -4,4 +4,4 @@ __author__ = "G Sousa"
 
 import os
 
-SOMESYSVARIABLE = os.environ["SOMESYSVARIABLE"]
+URL_BASE = 'https://heatpumpmonitor.org'

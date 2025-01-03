@@ -1,18 +1,23 @@
-# Python Project Template
+# HeatPumpMonitor `API` client
 
-This project is ...
+[![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-380/)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+<img src="assets/logo.png" align="right" height="138" />
+
+This project consumes the [HeatPumpMonitor.org](HeatPumpMonitor.org) API for the purpose of data analysis and visualization. The API provides real-world heat pump performance data from heat pumps installed in different locations around the UK. The data is collected by volunteers and is made available to the public for research purposes.
 
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/guxsousa/xxxxxxxxx.git
+    git clone https://github.com/guxsousa/heat-pump-monitor.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd xxxxxxxxx
+    cd heat-pump-monitor
     ```
 
 3. Install Poetry if you haven't already:
@@ -36,15 +41,6 @@ This project is ...
     ```
 
 
-## Usage
-
-Provide examples of how to use the project:
-```sh
-cd module
-python core.py --help
-```
-
-
 ## Installation with Docker
 
 Build Dockerfile
@@ -66,3 +62,19 @@ Verify active session
 ```sh
 docker ps --all
 ```
+
+
+## Usage
+
+Provide examples of how to use the project:
+```sh
+cd workflows
+python tester.py --help
+```
+
+
+## Screenshots
+
+![screenshot1](outcomes/figures/46-002.png)
+![screenshot2](outcomes/figures/46-005.png)
+![screenshot3](outcomes/figures/44-001.png)

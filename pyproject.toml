@@ -1,15 +1,22 @@
 [tool.poetry]
-name = "python-project-template"
+name = "hp-monitor-org"
 version = "0.0.9"
-description = "A python project template."
-authors = ["G Sousa <guxsousa@gmail.com>"]
+description = "A wrapper to retrieve parse data from HeatPumpMonitor.org"
+authors = ["G Sousa <guxsousa@users.noreply.github.com>"]
 license = "MIT License"
 readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
+tabulate = "^0.9.0"
+pandas = "^2.2.3"
 requests = "^2.32.3"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
 
 [build-system]
 requires = ["poetry-core"]
